@@ -1,6 +1,6 @@
 ## Connecting to the Database
 
-1. **Replace a `.env.sample` file in .env file**
+1. **Replace a `.env.sample` file in `.env` file**
 2. **Replacing placeholders with your actual values:**
 
 ```
