@@ -12,11 +12,11 @@ const registerUser = asyncHandler(async (req, res) => {
   );
 
   if (allFilds) {
-    throw new apiError(400, "All find are Required");
+    throw new apiError(400, "All Filds are Required");
   }
 
   if (!email.includes("@gmail.com")) {
-    throw new apiError(400, "Email must be an gmail Accoount");
+    throw new apiError(400, "Email must be an gmail account");
   }
 
   const check = await User.findOne({ $or: [{ email }, { username }] });
@@ -30,7 +30,7 @@ const registerUser = asyncHandler(async (req, res) => {
   console.log(avatarLocalPath);
 
   if (!avatarLocalPath) {
-    throw new apiError(400, "avatar file is Required");
+    throw new apiError(400, "avatar file path not visable");
   }
 
   const avatar = await uplodeFile(avatarLocalPath);
