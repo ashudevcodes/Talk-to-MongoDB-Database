@@ -1,17 +1,15 @@
-**# README**
-
 ## Connecting to the Database
 
-1. **Create a `.env` file in the root directory of the project.**
-2. **Paste the following content into the `.env` file, replacing placeholders with your actual values:**
+1. **Replace a `.env.sample` file in .env file**
+2. **Replacing placeholders with your actual values:**
 
 ```
 PORT= "8000"
 MONGO_URI= "mongodb://your_mongo_uri"  # Replace with your MongoDB connection string
 CORS_ORIGIN=*
-ACCESS_TOKEN_SEC=""
+ACCESS_TOKEN_SEC="use and fuzzy string value"
 ACCESS_TOKEN_EXP=1d
-REFRESH_TOKAN=""
+REFRESH_TOKAN="use and fuzzy string value"
 REFRESH_TOKAN_EXP=10d
 CLOUDINARY_CLOUD_NAME=your_cloud_name  # Replace with your Cloudinary cloud name
 CLOUDINARY_API_KEY=your_api_key  # Replace with your Cloudinary API key
