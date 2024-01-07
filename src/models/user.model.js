@@ -4,7 +4,7 @@ import mongoose from "mongoose";
 
 const userSchema = new mongoose.Schema(
   {
-    name: {
+    username: {
       type: String,
       required: true,
       unique: true,
@@ -23,9 +23,8 @@ const userSchema = new mongoose.Schema(
       trim: true,
       index: true,
     },
-    avtar: {
+    avatar: {
       type: String,
-      required: true,
     },
     coverImage: {
       type: String,
@@ -48,7 +47,7 @@ const userSchema = new mongoose.Schema(
 );
 
 userSchema.pre("save", async function (next) {
-  if (!this.isModefied("password")) return next();
+  if (!this.isModified("password")) return next();
 
   this.password = await bcrypt.hash(this.password, 10);
   next();

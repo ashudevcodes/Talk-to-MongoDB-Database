@@ -5,8 +5,8 @@ const storage = multer.diskStorage({
     cd(null, "./public/temp");
   },
   filename: function (req, file, cd) {
-    cd(null, file.filename);
+    cd(null, file.originalname);
   },
 });
 
-export const uplode = multer({ storage: storage });
+export const uplode = multer({ storage });
