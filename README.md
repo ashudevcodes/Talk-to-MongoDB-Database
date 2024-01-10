@@ -20,7 +20,7 @@ CLOUDINARY_API_SEC=your_api_secret  # Replace with your Cloudinary API secret
    - If your project uses a package manager like npm or yarn, run the appropriate command to install required dependencies (e.g., `npm install`).
 
 4. **Start your application:**
-   - Use the command or script that starts your application, ensuring it reads from the `.env` file to configure environment variables.
+   - Use the command or script that starts your application like `npm run dev` or `npm run start`, ensuring it reads from the `.env` file to configure environment variables.
 
 ## Testing User Registration with Postman
 
