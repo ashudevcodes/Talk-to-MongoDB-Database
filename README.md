@@ -33,5 +33,5 @@ CLOUDINARY_API_SEC=your_api_secret  # Replace with your Cloudinary API secret
    - `username`: User's username
 3. **Send the request.**
 
-**Upon successful registration, the user data, including the avatar image (if provided), should be stored in the MongoDB database, and the avatar image should be uploaded to Cloudinary.**
+**Upon successful registration, the user data, including the avatar image (if provided), should be stored in the MongoDB database, and the avatar image should be uploaded to Cloudinary. You will only get the URL of that image in your database**
 
