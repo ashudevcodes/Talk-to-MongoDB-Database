@@ -7,13 +7,13 @@ Welcome to MongoDB Talker, a project designed to make the `Contact Me` section o
 
 **How It Works:**
 
-1. Clone the repository: `git clone https://github.com/ashudevcodes/Talk-to-MongoDB-Database/tree/contectme/functionality`
+1. Clone the repository. `git clone https://github.com/ashudevcodes/Talk-to-MongoDB-Database/tree/contectme/functionality`
 2. Customize MongoDB connection details according to your setup.
 
 
 ## Connecting to the Database
 1. **Create a directory named "server" within your project directory. `mkdir server`**
-2. **Goto server dir `cd server`**
+2. **Goto the directory `cd server`**
 3. **Replace a `.env.sample` file in `.env` file**
 4. **Replacing placeholders with your actual values:**
 
@@ -30,10 +30,10 @@ CLOUDINARY_API_KEY=your_api_key  # Replace with your Cloudinary API key
 CLOUDINARY_API_SEC=your_api_secret  # Replace with your Cloudinary API secret
 ```
 
-1. **Install dependencies:**
+3. **Install dependencies:**
    - If your project uses a package manager like npm or yarn, run the appropriate command to install required dependencies (e.g., `npm install`).
 
-2. **Start your application:**
+4. **Start your application:**
    - Use the command or script that starts your application like `npm run dev` or `npm run start`, ensuring it reads from the `.env` file to configure environment variables.
 
 ## Testing User Registration with Postman
