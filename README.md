@@ -1,13 +1,13 @@
-*MongoDB Talker: Simplify Portfolio Interaction*
+**MongoDB Talker: Simplify Portfolio Interaction**
 
-"Welcome to MongoDB Talker, a project designed to make the 'Contact Me' section of portfolio websites functional. Often, people neglect to make the contact sections of their portfolio sites fully operational. For instance, if a user visits their website, fills out the 'Contact Me' form, and submits it, it might not work because the logic for database connection and data storage hasn't been implemented. This repository addresses that issue. It already contains code for MongoDB connection setup."
+Welcome to MongoDB Talker, a project designed to make the `Contact Me` section of portfolio websites functional. Often, people neglect to make the contact sections of their portfolio sites fully operational. For instance, if a user visits their website, fills out the `Contact Me` form, and submits it, it might not work because the logic for database connection and data storage hasn't been implemented. This repository addresses that issue. It already contains code for MongoDB connection setup.
 
-*Features:*
-- *MongoDB Integration:* The project comes with pre-written code that establishes a connection with MongoDB, making it easy to store form data.
+**Features:**
+- **MongoDB Integration:** The project comes with pre-written code that establishes a connection with MongoDB, making it easy to store form data.
 
-*How It Works:*
+**How It Works:**
 
-1. Clone the repository. `git clone https://github.com/ashudevcodes/Talk-to-MongoDB-Database/tree/contectme/functionality`
+1. Clone the repository: `git clone https://github.com/ashudevcodes/Talk-to-MongoDB-Database/tree/contectme/functionality`
 2. Customize MongoDB connection details according to your setup.
 
 
